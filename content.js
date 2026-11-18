@@ -11,7 +11,7 @@ const SITE = {
   motto: "No Debate • Respect Every Sports Fan Worldwide",
   youtube: "https://www.youtube.com/@Nisha.global",
   tiktok: "https://www.tiktok.com/@nisha.global",
-  email: "collabs@nishaglobal.com",                      // ← replace with your business email
+  email: "nishaglobaleducation@gmail.com",
 };
 
 /* Optional: YouTube video IDs to show in "Latest Videos".
