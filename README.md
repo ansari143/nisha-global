@@ -48,4 +48,13 @@ All content lives in **`content.js`**, so you never need to touch the code.
 | `assets/logo.webp` | Nisha Global logo |
 
 ## Hosting
-Hosted free with **GitHub Pages**: Settings → Pages → Deploy from branch `main` / root.
+🌐 Live at **https://nisha-global.web.app** (Firebase Hosting, project `nisha-global`).
+
+To publish changes after editing `content.js`, run this in the project folder:
+```
+firebase deploy --only hosting
+```
+If sign-in or deploy fails with a certificate error, run this once first in the same terminal (PowerShell):
+```
+$env:NODE_OPTIONS = '--use-system-ca'
+```
